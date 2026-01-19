@@ -1,0 +1,39 @@
+.nav-item {
+  cursor: pointer;
+  color: black;
+  padding:6px 20px;
+ position: relative;
+}
+
+.nav-item:hover {
+  color: white;
+  background-color: blue;
+  border-radius: 8px;
+}
+.nav-dropdown{
+    position:absolute;
+    border-radius: 12px;
+    width:18vmax;
+    list-style: none;
+    height:18vmax;
+    left :2px;
+    top:38px;
+    z-index: 1;
+    background-color: white;
+    
+
+    
+}
+.nav-dropdown  li{
+    color: black;
+    display: flex;
+  align-items: center;   /* vertical center */
+  gap: 10px;             /* space between icon & text */
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.secondary-nav div p{
+  font-weight: 500;
+}

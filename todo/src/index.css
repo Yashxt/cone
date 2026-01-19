@@ -1,0 +1,30 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5; 
+  font-weight: 400;
+
+  
+
+
+
+}
+/*
+Source - https://stackoverflow.com/q/3397113
+Posted by Joey Morani, modified by community. See post 'Timeline' for change history
+Retrieved 2025-11-15, License - CC BY-SA 4.0
+*/
+
+input {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color: black;
+}
+
+
+input:focus{
+    outline: none;
+}
+
+
