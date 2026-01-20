@@ -1,6 +1,7 @@
 import SecondaryNav from "./SecondaryNav";
-import Carousal from "./carousal";
+import Carousal from "./Carousal";
 import PhonesRecom from "./PhonesRecom";
+import MoreProducts from "./MoreProducts";
 const Body = () => {
   return (
     <div>
@@ -8,6 +9,7 @@ const Body = () => {
         <div><SecondaryNav/>
         <Carousal/>
         <PhonesRecom/>
+        <MoreProducts/>
         </div>
 
 
